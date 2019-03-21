@@ -9,11 +9,15 @@ import { AngularFirestoreModule, FirestoreSettingsToken } from '@angular/fire/fi
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from 'src/environments/environment.prod';
 import { ChatComponent } from './chat/chat.component';
+import { MessageComponent } from './message/message.component';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChatComponent
+    ChatComponent,
+    MessageComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
